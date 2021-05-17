@@ -21,9 +21,10 @@ public class BoxingHallsOfFame {
 	private Long won;
 	private Long drawn;
 	private Long lost;
+	private Long ko;
 	private Boolean Undisputed ;
 	
-	public BoxingHallsOfFame(String name, String weightClass, Long bouts, Long won, Long drawn, Long lost,
+	public BoxingHallsOfFame(String name, String weightClass, Long bouts, Long won, Long drawn, Long lost, Long ko,
 			Boolean undisputed) {
 		super();
 		this.name = name;
@@ -32,7 +33,8 @@ public class BoxingHallsOfFame {
 		this.won = won;
 		this.drawn = drawn;
 		this.lost = lost;
-		Undisputed = undisputed;
+		this.ko = ko;
+		this.Undisputed = undisputed;
 	}
 	
 	public BoxingHallsOfFame() {}
@@ -92,7 +94,13 @@ public class BoxingHallsOfFame {
 	public void setLost(Long lost) {
 		this.lost = lost;
 	}
+	public Long getko() {
+		return ko;
+	}
 
+	public void setko(Long ko) {
+		this.ko = ko;
+	}
 	public Boolean getUndisputed() {
 		return Undisputed;
 	}
@@ -110,6 +118,7 @@ public class BoxingHallsOfFame {
 		result = prime * result + ((drawn == null) ? 0 : drawn.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((lost == null) ? 0 : lost.hashCode());
+		result = prime * result + ((ko == null) ? 0 : ko.hashCode());
 		result = prime * result + ((name == null) ? 0 : name.hashCode());
 		result = prime * result + ((weightClass == null) ? 0 : weightClass.hashCode());
 		result = prime * result + ((won == null) ? 0 : won.hashCode());
@@ -139,6 +148,11 @@ public class BoxingHallsOfFame {
 			if (other.drawn != null)
 				return false;
 		} else if (!drawn.equals(other.drawn))
+			return false;
+		if (ko == null) {
+			if (other.ko != null)
+				return false;
+		} else if (!ko.equals(other.ko))
 			return false;
 		if (id == null) {
 			if (other.id != null)

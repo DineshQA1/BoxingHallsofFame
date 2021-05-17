@@ -6,6 +6,7 @@ CREATE TABLE boxing_halls_of_fame (
    	won BIGINT,
    	drawn BIGINT,
    	lost BIGINT,
+   	ko BIGINT,
     undisputed BOOLEAN NOT NULL,
     PRIMARY KEY (id)
 );

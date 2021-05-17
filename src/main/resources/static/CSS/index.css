@@ -1,0 +1,107 @@
+
+.modal-body label{
+    color:black;
+    
+}
+
+form{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 25px; 
+    border-style: solid; 
+    border-width: 0.5px; 
+    border-color: rgb(255, 255, 255, 0.1);
+    background-color:rgb(255, 255, 255, 0.1);
+    padding:0px 10px 0px 10px;
+}
+
+ 
+  p {
+    font-size: 750%;
+    font-family: 'Monoton', cursive;
+    color: rgb(163, 119, 6); 
+ }
+
+ .class-for-index {
+    background-image: url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/9/30/1412094261354/20ee7dea-ddaa-4e90-949d-32b0281517b4-2060x1377.jpeg?width=700&quality=85&auto=format&fit=max&s=081405f66ca5cfc657b45574350e17fb);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #000000;
+    }
+
+    .class-for-splash {
+        background-image: url(https://static.billboard.com/files/media/02-Muhammad-Ali-towel-1962-billboard-1548-compressed.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #290101;
+        }
+
+
+
+    .enter a {
+        font-size:2000%;
+    font-family: 'Monoton', cursive;
+    text-decoration: none;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  }
+      
+      
+    .enter a:link {color: #20000000;}
+    .enter a:visited {color: #200000;}
+    .enter a:hover {color: #4d0101ce;}
+    
+    .enter a {
+        animation: fadeIn 5s;
+        -webkit-animation: fadeIn 5s;
+        -moz-animation: fadeIn 5s;
+        -o-animation: fadeIn 5s;
+        -ms-animation: fadeIn 5s;
+      }
+      @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+
+      .page-link1 {
+          border-radius: 5px 0px 0px 5px;
+          padding: 3px 15px 3px 6px;
+          text-decoration: none;
+      background: #000000;
+      color:rgb(70, 70, 70);}
+
+      .page-link2 {
+        border-radius: 0px 5px 5px 0px;
+        padding: 3px 6px 3px 15px;;
+        text-decoration: none;
+    background: #000000;
+    color: rgb(70, 70, 70);}
+
+    .page-link1:hover {color: #ffffffce;}
+    .page-link2:hover {color: #ffffffce;}
